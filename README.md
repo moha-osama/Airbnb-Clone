@@ -2,12 +2,6 @@
  
  This is a front-end only web application that replicates some of the core features of Airbnb. The application is built with Next.js and Tailwind CSS, and uses the Airbnb API to fetch real data for listings, reviews, and other details. Users can search for listings, filter by location, price, and other criteria, and view detailed information about each property, including photos, amenities, and availability. The application is responsive and optimized for various screen sizes. This project is a great example of how to build a modern, dynamic, and visually appealing front-end web application using popular technologies like Next.js and Tailwind CSS.
  
- ![Screenshot 2023-05-23 162707](https://github.com/moha-osama/airbnb-demo/assets/68459758/e287bb3b-9611-4b60-98bb-70296aff94aa)
-
- 
- <h1>Demo👇</h1> https://vercel.com/moha-osama/airbnb-demo/ELgYa6A1ninqdHzQhtnV6bsnyVhm
-
-
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
