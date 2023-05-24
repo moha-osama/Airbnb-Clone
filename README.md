@@ -10,7 +10,7 @@
       Calendar & Date Picker
 
 ## Demo👇
-https://airbnb-clone-one-nu.vercel.app/
+https://thunderous-licorice-7adb68.netlify.app/
 
  
 ## Getting Started
