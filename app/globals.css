@@ -9,4 +9,7 @@ body {
   .section {
     @apply max-w-7xl mx-auto px-8 sm:px-16;
   }
+  .button {
+    @apply px-4 py-2 border rounded-full cursor-pointer hover:shadow-lg active:scale-95 transition transform duration-100 ease-out;
+  }
 }

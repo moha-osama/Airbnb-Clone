@@ -1,9 +1,7 @@
-import Header from "@/components/Header";
 import Banner from "@/components/Banner";
 import SmallCard from "@/components/SmallCard";
 import MediumCard from "@/components/MediumCard";
 import LargeCard from "@/components/LargeCard";
-import Footer from "@/components/Footer";
 
 export default async function Home() {
   const citiesRes = await fetch("https://www.jsonkeeper.com/b/4G1G");
@@ -14,7 +12,6 @@ export default async function Home() {
 
   return (
     <>
-      <Header />
       <Banner />
       <section className="pt-6 section">
         <h2 className="text-4xl font-semibold pb-5">Explore Nearby</h2>
@@ -29,9 +26,9 @@ export default async function Home() {
           ))}
         </div>
       </section>
-      <section className="pt-6 section">
+      <section className="section">
         <h2 className="text-4xl font-semibold pb-5">Live Anywhere</h2>
-        <div className="flex space-x-3 overflow-x-scroll scrollbar-hide -ml-4">
+        <div className="flex overflow-x-scroll scrollbar-hide -ml-4">
           {housesData.map((item) => (
             <MediumCard key={item.title} image={item.img} title={item.title} />
           ))}
@@ -45,7 +42,6 @@ export default async function Home() {
           buttonText="Get Inspired"
         />
       </section>
-      <Footer />
     </>
   );
 }
