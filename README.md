@@ -2,6 +2,14 @@
  
  This is a front-end only web application that replicates some of the core features of Airbnb. The application is built with Next.js and Tailwind CSS, and uses the Airbnb API to fetch real data for listings, reviews, and other details. Users can search for listings, filter by location, price, and other criteria, and view detailed information about each property, including photos, amenities, and availability. The application is responsive and optimized for various screen sizes. This project is a great example of how to build a modern, dynamic, and visually appealing front-end web application using popular technologies like Next.js and Tailwind CSS.
  
+ <h1>Technologies used:</h1>
+      Next JS<br/>
+      Hero Icons<br/>
+      nextjs-progressbar<br/>
+      Tailwind CSS<br/>
+      Calendar & Date Picker
+
+ 
 ## Getting Started
 
 First, run the development server:
