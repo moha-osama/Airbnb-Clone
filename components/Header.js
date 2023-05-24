@@ -65,7 +65,7 @@ export default function Header() {
         />
 
         <MagnifyingGlassIcon
-          onClick={() => setSearch("where to go?")}
+          onClick={() => setSearch("where to go...")}
           className="hidden md:inline-flex h-8 bg-red-400 text-white rounded-full p-1 cursor-pointer md:mx-2"
         />
       </div>
